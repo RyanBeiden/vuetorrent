@@ -45,7 +45,7 @@ export const useAddTorrentStore = defineStore(
     }
 
     function resetForm() {
-      urls.value = ''
+      urls.value = 'magnet:?xt=urn:btih:'
       files.value = []
 
       form.cookie = undefined

@@ -121,7 +121,7 @@ watch(
 
 watchEffect(() => {
   const appInstanceName = preferencesStore.preferences?.app_instance_name
-  const baseName = appInstanceName && appInstanceName.length ? appInstanceName : 'VueTorrent'
+  const baseName = appInstanceName && appInstanceName.length ? appInstanceName : 'qBittorrent'
 
   const mode = uiTitleType.value
   switch (mode) {
